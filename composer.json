@@ -1,0 +1,25 @@
+{
+    "name": "calieno/exercicios-php",
+    "description": "Exercicios em PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano",
+            "email": "calieno@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "^3.3.1"
+    }
+}
